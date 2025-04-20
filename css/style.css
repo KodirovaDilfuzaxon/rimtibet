@@ -1,0 +1,161 @@
+@font-face {
+  font-family: "Nunito Sans";
+  src: local("Nunito Sans"),
+    url("../fonts/nunito-san.ttf") format("truetype") tech(color-COLRv1);
+}
+@font-face {
+  font-family: "NEXT ART";
+  src: local("NEXT ART"),
+    url("../fonts/NEXT\ ART_Bold.otf") format("opentype") tech(color-COLRv1);
+}
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Nunito Sans;
+}
+ul,
+button,
+a {
+  list-style-type: none;
+  text-decoration: none;
+  border: none;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../images/bg-image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  min-height: 100vh;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 40px;
+}
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 40px;
+}
+.hero .nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-right: 50px;
+  margin-left: 212px;
+}
+.hero .nav-list .nav-item a {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #fdfdfd;
+  transition: all 0.3s ease;
+}
+.hero .nav-list .nav-item a:hover {
+  color: black;
+}
+.btn-primary {
+  background: #1a3e3e;
+  font-family: Nunito Sans;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 1.2%;
+  color: #fdfdfd;
+  border-radius: 4px;
+  padding: 16px 20px;
+  border: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.hero button:hover {
+  background: #fdfdfd;
+  color: #1a3e3e;
+  cursor: grabbing;
+}
+
+.hero-content h1 {
+  font-family: NEXT ART;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 150%;
+  letter-spacing: 2px;
+  color: #fdfdfd;
+  text-transform: uppercase;
+  max-width: 1080px;
+  margin-top: 350px;
+}
+.select-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 42px;
+  backdrop-filter: blur(6px);
+  background: #ffffff33;
+  border-radius: 8px;
+  gap: 40px;
+}
+
+.select-input .select-input-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.select-input .select-input-item .select-option {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  border-radius: 8px;
+}
+.select-input .select-input-item .select-option select {
+  border: 1px solid #e1e3e4;
+  padding: 14px 20px;
+  gap: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  background: transparent;
+  color: #fdfdfd;
+  border-radius: 8px;
+}
+
+.select-input .select-input-item .select-option p {
+  color: #fdfdfd;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 150%;
+  padding: 8px 8px;
+}
+
+.select-input button {
+  font-family: Nunito Sans;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 1.2%;
+  padding: 16px 36px;
+  border: none;
+  border-radius: 4px;
+  background: #fdfdfd;
+  color: #1a3e3e;
+  margin-top: -40px;
+  transition: all 0.3s ease;
+}
+
+.select-input button:hover {
+  background: #1a3e3e;
+  color: #e1e3e4;
+}

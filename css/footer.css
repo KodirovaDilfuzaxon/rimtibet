@@ -1,0 +1,101 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 120px;
+  background: #1a3e3e;
+  padding-top: 175px;
+  padding-bottom: 200px;
+}
+footer .footer-content {
+  max-width: 480px;
+}
+footer .footer-content h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #f3f5f4;
+}
+footer .footer-content p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+}
+footer .info {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+footer .info a {
+  color: #ffffff;
+}
+footer .menedjers {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+footer .menedjers i,
+i {
+  color: #ffffff;
+}
+.servis {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.servis h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #f3f5f4;
+}
+.servis .servis-list {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+.servis .servis-list .servis-list-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  gap: 1rem;
+}
+.servis .servis-list .servis-list-item:hover {
+  color: #f2be22;
+  cursor: pointer;
+}
+.servis .servis-list .servis-list-item a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #fdfdfd;
+}
+.servis .servis-list .servis-list-item a:hover {
+  color: #f2be22;
+  text-decoration: underline;
+}
+i:hover {
+  color: #f2be22;
+}
+
+.qolibketibdi {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #18121e;
+  padding: 1rem;
+}
+.qolibketibdi p {
+  font-family: Nunito Sans;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0%;
+  color: #ffffff;
+}

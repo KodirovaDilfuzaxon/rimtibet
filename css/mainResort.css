@@ -1,0 +1,90 @@
+.resort {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 200px;
+  gap: 50px;
+}
+.blog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 200px;
+  background: #f3f5f4;
+  gap: 40px;
+}
+.resort .about-content {
+  align-items: center;
+}
+.resort .resort-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.blog .about-content {
+  align-items: center;
+}
+.card {
+  max-width: 580px;
+  padding: 18px 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  border-radius: 10px;
+  background: #fdfdfd;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.card-list {
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.cards .card .card-list h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #18121e;
+  text-align: start;
+}
+.cards .card .card-list p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #18121e;
+  max-height: 118px;
+  overflow-x: hidden;
+  text-align: start;
+}
+.spans {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.spans .data {
+  font-family: Nunito Sans;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #f2be22;
+}
+.spans span {
+  font-family: Nunito Sans;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #1a3e3e;
+}

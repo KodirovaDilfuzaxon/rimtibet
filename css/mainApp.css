@@ -1,0 +1,99 @@
+.about {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  min-height: 50vh;
+  gap: 120px;
+  padding: 100px;
+}
+
+.about-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  max-width: 580px;
+  gap: 40px;
+}
+.about-content .yellowh2 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 20px;
+  color: #f2be22;
+}
+.about-content .contenth3 {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 120%;
+  color: #18121e;
+}
+.about-content p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #18121e;
+}
+main .app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+  padding-top: 80px;
+  padding-bottom: 100px;
+  background: #f3f5f4;
+}
+.content-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 40px;
+}
+main .app-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 580px;
+  gap: 40px;
+}
+main .app-list .app-list-items {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.app-list .app-list-items .app-list-item h4 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 1.2%;
+  color: #18121e;
+}
+.app-list .app-list-items .app-list-item p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+.app-list .app-list-items .app-list-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  justify-content: center;
+  align-items: start;
+}
+.app .con-images {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+}
