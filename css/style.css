@@ -29,7 +29,7 @@ a {
   background-image: url(../images/bg-image.png);
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100vw;
+  max-width: 100%;
   min-height: 100vh;
 }
 header {
